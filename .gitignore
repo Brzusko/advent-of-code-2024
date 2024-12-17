@@ -1,0 +1,18 @@
+# Ignorowanie katalogów buildowych
+**/debug/
+**/target/
+
+# Plik Cargo.lock - ignorowany dla bibliotek, nie dla executable
+Cargo.lock
+
+# Ignorowanie backupów rustfmt
+**/*.rs.bk
+
+# Ignorowanie plików .pdb (dla MSVC)
+**/*.pdb
+
+# Ignorowanie konfiguracji IDE
+**/.idea/
+
+# Ignorowanie wszystkich katalogów 'target' w całym repozytorium
+target/
